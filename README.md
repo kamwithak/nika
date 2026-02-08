@@ -2,7 +2,7 @@
 
 A cross-chain bridge that lets you swap tokens from Solana to Ethereum, Arbitrum, and Base - without needing gas tokens on the destination chain.
 
-<img width="1406" height="1025" alt="Screenshot 2026-02-08 at 3 19 51 PM" src="https://github.com/user-attachments/assets/d101474f-7911-44b0-acf3-0de10e08ed75" />
+<img width="1406" height="1025" alt="Screenshot 2026-02-08 at 3 19 51 PM" src="https://github.com/user-attachments/assets/e6c612fa-c24d-4560-8547-5fded3b73757" />
 
 ## What Does It Do?
 
