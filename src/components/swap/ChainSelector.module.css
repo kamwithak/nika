@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  background: rgba(10, 10, 15, 0.6);
+  border: 1px solid rgba(147, 51, 234, 0.3);
+  border-radius: 9999px;
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+}
+
+.chip:hover:not(.chipDisabled) {
+  border-color: #a78bfa;
+  color: #ffffff;
+  background: rgba(147, 51, 234, 0.15);
+  box-shadow: 0 0 12px rgba(147, 51, 234, 0.2);
+}
+
+.chipSelected {
+  background: linear-gradient(135deg, #9333ea 0%, #7c3aed 100%);
+  border-color: #a78bfa;
+  color: #ffffff;
+  box-shadow: 0 0 16px rgba(147, 51, 234, 0.4);
+}
+
+.chipDisabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  border-color: rgba(107, 114, 128, 0.2);
+}

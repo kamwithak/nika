@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.backLink {
+  align-self: flex-start;
+  margin-bottom: 24px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #a78bfa;
+  transition: color 0.2s ease;
+}
+
+.backLink:hover {
+  color: #c4b5fd;
+}

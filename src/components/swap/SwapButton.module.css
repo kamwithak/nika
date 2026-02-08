@@ -1,0 +1,48 @@
+.button {
+  width: 100%;
+  padding: 18px 24px;
+  background: linear-gradient(135deg, #9333ea 0%, #7c3aed 100%);
+  border: 1px solid rgba(147, 51, 234, 0.3);
+  border-radius: 14px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(147, 51, 234, 0.3);
+  letter-spacing: 0.3px;
+}
+
+.button:hover:not(.buttonDisabled):not(.buttonProcessing) {
+  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(147, 51, 234, 0.4);
+}
+
+.button:active:not(.buttonDisabled):not(.buttonProcessing) {
+  transform: translateY(0);
+}
+
+.buttonDisabled {
+  background: rgba(28, 29, 36, 0.6);
+  color: #6b7280;
+  cursor: not-allowed;
+  border-color: rgba(107, 114, 128, 0.2);
+  box-shadow: none;
+}
+
+.buttonProcessing {
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.5), rgba(124, 58, 237, 0.5));
+  cursor: wait;
+  box-shadow: 0 0 20px rgba(147, 51, 234, 0.5);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
