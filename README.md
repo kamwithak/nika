@@ -2,6 +2,8 @@
 
 A cross-chain bridge that lets you swap tokens from Solana to Ethereum, Arbitrum, and Base - without needing gas tokens on the destination chain.
 
+<img width="1406" height="1025" alt="Screenshot 2026-02-08 at 3 19 51 PM" src="https://github.com/user-attachments/assets/d101474f-7911-44b0-acf3-0de10e08ed75" />
+
 ## What Does It Do?
 
 Nika Finance solves a common problem in crypto: you have tokens on Solana and want to move them to another blockchain (like Ethereum or Base), but you don't have gas tokens on that destination chain. 
